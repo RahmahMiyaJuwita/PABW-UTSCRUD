@@ -12,18 +12,19 @@ $sensus = $data -> fetch(PDO :: FETCH_OBJ);
 <!DOCTYPE html>
   <html>
     <head>
-      <!--Import Google Icon Font-->
+      <!--Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!--Import materialize.css-->
+
+      <!--materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
-      <!--my css-->
+      <!--css-->
       <link rel="stylesheet" type="text/css" href="css/style.css">
 
-      <!-- logo -->
+      <!--logo -->
       <link href="img/icon1.jpg" rel="icon" type="icon/x-image" >
 
-      <!--Let browser know website is optimized for mobile-->
+      <!--interaktif-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
       <title>La Familie</title>
@@ -57,8 +58,8 @@ $sensus = $data -> fetch(PDO :: FETCH_OBJ);
       <!--sidenav-->
 
       <ul class="sidenav white" id="mobile-nav">
-        <li><a href="index.php" class="active white-text">Home</a></li>
-        <li><a href="form.php" class="active white-text">Form</a></li>
+        <li><a href="index.php" class="active black-text">Home</a></li>
+        <li><a href="form.php" class="active black-text">Form</a></li>
       </ul>
 
 
